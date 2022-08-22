@@ -41,7 +41,7 @@ export const updatePlant = (user, updatedPlant) => {
     // console.log('this is user', user)
     console.log('this is updatedPlant', updatedPlant)
 	return axios({
-		url: `${apiUrl}/plants/${updatedPlant.id}`,
+		url: `${apiUrl}/plants/${updatedPlant._id}`,
 		method: 'PATCH',
 		headers: {
 			Authorization: `Token token=${user.token}`,
