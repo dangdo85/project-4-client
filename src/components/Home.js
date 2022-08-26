@@ -8,7 +8,7 @@ const Home = (props) => {
 
 	return (
 		<>
-			<h2>See the Plants</h2>
+			{/* <h2>See the Plants</h2> */}
 			<PlantsIndex msgAlert={ msgAlert }/>
 		</>
 	)

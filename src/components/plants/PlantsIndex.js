@@ -11,7 +11,8 @@ import messages from '../shared/AutoDismissAlert/messages'
 const cardContainerStyle = {
 display: 'flex',
 flexFlow: 'row wrap',
-justifyContent: 'center'
+justifyContent: 'center',
+backgroundImage: "url('https://t4.ftcdn.net/jpg/03/64/44/51/360_F_364445183_4sG0xrQiEA0OreDQkee3yLD1ak26CWL6.jpg')",
 }
 const PlantsIndex = (props) => {
 const [plants, setPlants] = useState(null)
